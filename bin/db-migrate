@@ -6,6 +6,7 @@ const config = require('./env').getConfig()
 migrate({
   connectionString: config.connectionString,
   path: config.scriptsPath,
+  schema: config.schema || 'public',
   tableName: config.tableName,
   targetVersion: config.targetVersion || 0,
   printStatus: true,

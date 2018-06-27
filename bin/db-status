@@ -8,6 +8,7 @@ const config = require('./env').getConfig()
 status({
   connectionString: config.connectionString,
   path: config.scriptsPath,
+  schema: config.schema || 'public',
   tableName: config.tableName,
   dbDriver: config.dbDriver
 })
