@@ -28,8 +28,8 @@
     }
   ],
   "dependencies": {
-    "colors": "1.x",
-    "lodash": "^4.17.4"
+    "colors": "^1.4.0",
+    "lodash": "^4.17.15"
   },
   "license": "MIT",
   "keywords": [
